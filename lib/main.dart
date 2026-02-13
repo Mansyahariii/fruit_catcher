@@ -22,13 +22,17 @@ class GameScreen extends StatefulWidget {
 
 class _GameScreenState extends State<GameScreen> {
   @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          'Game akan ditampilkan disini',
-          style: TextStyle(fontSize: 24),
-        ),
+      body: Stack(
+        children: [
+          Positioned(top: 50, left: 20, child: Container()), // Positioned
+        ],
       ),
     );
   }
