@@ -139,4 +139,9 @@ class AudioManager {
       pauseBackgroundMusic();
     }
   }
+
+  /// Enable sound effects
+  void enableSfx() {
+    _isSfxEnabled = true;
+  }
 }
