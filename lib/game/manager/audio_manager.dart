@@ -70,4 +70,15 @@ class AudioManager {
       }
     }
   }
+
+  /// Play sound effect
+  void playSfx(String fileName) {
+    if (_isSfxEnabled) {
+      try {
+        FlameAudio.play('sfx/$fileName', volume: _sfxVolume);
+      } catch (e) {
+        print('Error playing SFX: $e');
+      }
+    }
+  }
 }
