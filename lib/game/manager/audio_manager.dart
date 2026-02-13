@@ -149,4 +149,13 @@ class AudioManager {
   void disableSfx() {
     _isSfxEnabled = false;
   }
+
+  /// Cleanup and dispose audio resources
+  void dispose() {
+    try {
+      FlameAudio.bgm.dispose();
+    } catch (e) {
+      print('Error disposing audio: $e');
+    }
+  }
 }
