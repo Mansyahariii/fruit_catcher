@@ -144,4 +144,9 @@ class AudioManager {
   void enableSfx() {
     _isSfxEnabled = true;
   }
+
+  /// Disable sound effects
+  void disableSfx() {
+    _isSfxEnabled = false;
+  }
 }
