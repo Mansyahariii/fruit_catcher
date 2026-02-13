@@ -11,6 +11,9 @@ import 'manager/audio_manager.dart';
 
 class FruitCatcherGame extends FlameGame
     with PanDetector, HasCollisionDetection {
+  // FruitCatcherGame() {
+  //   debugMode = true;
+  // }
   late Basket basket;
   late TextComponent scoreText;
   final Random random = Random();

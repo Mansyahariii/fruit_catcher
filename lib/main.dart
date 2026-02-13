@@ -27,13 +27,15 @@ class GameScreen extends StatefulWidget {
 }
 
 class _GameScreenState extends State<GameScreen> {
-  final ValueNotifier<int> counter = ValueNotifier(0);
+  // final ValueNotifier<int> counter = ValueNotifier(0);
   late FruitCatcherGame game;
+  late ValueNotifier<int> counter;
 
   @override
   void initState() {
     super.initState();
     game = FruitCatcherGame();
+    counter = game.scoreNotifier;
   }
 
   @override
