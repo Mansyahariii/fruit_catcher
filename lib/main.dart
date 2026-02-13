@@ -45,7 +45,7 @@ class _GameScreenState extends State<GameScreen> {
                       color: Colors.black54,
                       borderRadius: BorderRadius.circular(10),
                     ),
-            
+
                     child: ValueListenableBuilder(
                       valueListenable: counter,
                       builder: (context, score, child) {
@@ -61,7 +61,7 @@ class _GameScreenState extends State<GameScreen> {
                     ),
                   ),
                 ),
-            
+
                 Positioned(
                   top: 50,
                   right: 20,
@@ -79,6 +79,15 @@ class _GameScreenState extends State<GameScreen> {
                   ),
                 ),
               ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: ElevatedButton(
+              onPressed: () {
+                counter.value++;
+              },
+              child: const Text("Tambah Score"),
             ),
           ),
         ],
