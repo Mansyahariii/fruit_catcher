@@ -52,9 +52,18 @@ class _GameScreenState extends State<GameScreen> {
             ),
           ),
 
-          Positioned(top: 50, right: 20, child: Row(children: [
+          Positioned(
+            top: 50,
+            right: 20,
+            child: Row(
+              children: [
+                IconButton(
+                  icon: const Icon(Icons.music_note, color: Colors.black),
+                  onPressed: () {},
+                ),
               ],
-            )),
+            ),
+          ),
         ],
       ),
     );
