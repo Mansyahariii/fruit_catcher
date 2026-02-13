@@ -118,4 +118,9 @@ class AudioManager {
       pauseBackgroundMusic();
     }
   }
+
+  // Toggle sound effects on/off
+  void toggleSfx() {
+    _isSfxEnabled = !_isSfxEnabled;
+  }
 }
