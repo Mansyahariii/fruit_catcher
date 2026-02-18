@@ -1,16 +1,86 @@
-# fruit_catcher
+# 🐞 Flutter Fruit Catcher (Versi Bug Edition)
 
-A new Flutter project.
+Tugas mata kuliah **Mobile App**.
+Aplikasi ini merupakan game sederhana **Fruit Catcher** yang telah dimodifikasi, di mana objek buah yang awalnya berbentuk lingkaran telah diubah menjadi bug/kumbang.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📸 Hasil Screenshot
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <img src="assets/images/fruit_catcher.PNG" width="200">
+  <img src="assets/images/fruit_catcher2.PNG" width="200">
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎮 Deskripsi Game
+
+Game ini merupakan permainan sederhana di mana pemain harus menangkap objek yang jatuh dari atas layar dan dapatkan score sebanyak banyaknya.
+
+## ✨ Perubahan yang Dilakukan
+
+Mengubah objek dari lingkaran (fruit) menjadi bug/kumbang
+
+Menyesuaikan tampilan visual agar lebih menarik
+
+Tetap mempertahankan mekanisme dasar permainan (gerak, collision, skor)
+
+---
+
+## 👤 Identitas
+
+| Keterangan       | Data           |
+| ---------------- | -------------- |
+| **Nama Lengkap** | Ari Firmansyah |
+| **NIM**          | 1123150127     |
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+> Pastikan sudah menginstal **Flutter SDK** minimal versi **3.x.x**
+
+1. Jalankan perintah berikut:
+
+   ```bash
+   flutter pub get
+   ```
+
+2. Jalankan project di device atau emulator:
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🧠 Konsep yang Digunakan
+
+- Widget dasar Flutter
+
+- StatefulWidget untuk state management sederhana
+
+- Timer / game loop sederhana
+
+- Collision detection
+
+- Random position generation
+
+---
+
+## 📌 Catatan
+
+Game ini masih merupakan versi sederhana dan dapat dikembangkan lebih lanjut, seperti:
+
+- Penambahan level
+
+- Variasi jenis bug
+
+- Animasi yang lebih smooth
+
+- Sistem high score
+
+
+
+
